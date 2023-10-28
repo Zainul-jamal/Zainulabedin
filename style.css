@@ -1,0 +1,229 @@
+/* h1, h2{
+    text-align: center;
+    background-color: aqua;
+    border-radius: 30%;
+    border: 1px solid black;
+} */
+/* .navbar2{
+display:flex ;
+padding: 50px
+
+;
+background-color: red;
+} */
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+.navbar{
+    text-align: left;
+}
+.button{
+    border-radius: 50%;
+    width: 100px;
+    height: 50px;
+}
+.login{
+font-size: larger;
+}
+.login :hover{
+    color: tomato;
+    cursor: pointer;
+}
+.left{
+    margin-left: 100px;
+}
+.image{
+    width: 500px;
+    height: 500px;
+    border-radius: 10%;
+}
+.input{
+    width: 500px;
+    height: 50px;
+    border: 2px solid tomato;
+}.input1,.input2{
+    width: 250px;
+    height: 50px;
+    border: 2px solid tomato;
+}
+input[type=location]{
+    background-image:url(./img/location.jpg) ;
+    background-size: 40px;
+background-repeat: no-repeat;
+padding-left: 35px;
+}input[type=dropbox]{
+    background-image:url(./img/car.jpg) ;
+    background-size: 50px;
+background-repeat: no-repeat;
+padding-left:70px;
+}
+.input1[type=text]{
+    background-image:url(./img/check.png) ;
+    background-size: 45px;
+background-repeat: no-repeat;
+padding-left: 35px;
+}
+.input2[type=list]{
+    background-image:url(./img/check1.png) ;
+    background-size: 40px;
+background-repeat: no-repeat;
+padding-left: 35px;
+}
+.button1{
+    width:400px;
+    height:50px ;
+    background-color: tomato;
+    border: 1px solid tomato;
+    border-radius: 20px;
+    color: aliceblue;
+    
+font-size: large;
+}
+.maincard{
+    height:600px ;
+    width:1200px ;
+    background-color: #E23744;
+ 
+    margin-left: 80px;
+  
+    
+}
+.id{
+    width: 800px;
+height: 500px;
+border: 1px solid red;
+
+}
+
+
+
+
+
+
+.navbar{
+margin: auto
+}
+.button{
+    border-radius: 20px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;1,400;1,800&display=swap");
+
+:root {
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: #fff;
+  background-color: #141d26;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 601px;
+  height: auto;
+  padding: 35px 31px;
+  gap: 15px;
+  border-radius: 10px;
+  background: #243447;
+  box-shadow: 0px 15px 60px 0px rgba(52, 81, 116, 0.15);
+}
+
+.user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.ava {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.icon {
+  font-size: 30px;
+  color: #1da1f2;
+}
+
+.username {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.username .name {
+  line-height: normal;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.username .uname {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.twitt .tag {
+  text-decoration: none;
+  color: #1da1f2;
+}
+
+.insight {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+.like {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.like svg:hover {
+  fill: crimson;
+  filter: drop-shadow(0 0 10px crimson);
+  cursor: pointer;
+}
